@@ -52,6 +52,7 @@ npm start
 # Project Structure
 
 ## Backend Structure
+```
 backend/
 ├── app.py
 ├── config.py
@@ -72,8 +73,9 @@ backend/
     ├── menu_routes.py
     ├── order_routes.py
     └── payment_routes.py
-
+```
 ## Frontend Structure
+```
 frontend/
 ├── src/
 │   ├── components/
@@ -82,7 +84,7 @@ frontend/
 │   ├── types/
 │   ├── utils/
 │   └── App.tsx
-
+```
 ---
 
 ## Quick Start
