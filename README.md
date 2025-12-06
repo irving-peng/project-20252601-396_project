@@ -105,7 +105,7 @@ npm start
 ```
 
 3. Visit
-Frontend UI: http://localhost:3000
+Frontend UI: http://localhost:3000<br>
 Backend API: http://localhost:5001
 
 
