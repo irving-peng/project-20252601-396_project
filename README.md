@@ -104,7 +104,7 @@ npm install
 npm start
 ```
 
-3. Visit
+3. Visit<br>
 Frontend UI: http://localhost:3000<br>
 Backend API: http://localhost:5001
 
