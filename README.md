@@ -39,3 +39,75 @@ cd backend
 pip install -r requirements.txt
 python seed_data.py
 python app.py
+```
+
+## Frontend Setup
+```bash
+cd frontend
+npm install
+npm start
+```
+---
+
+# Project Structure
+
+## Backend Structure
+backend/
+├── app.py
+├── config.py
+├── database.py
+├── requirements.txt
+├── seed_data.py
+├── models/
+│   ├── menu_item.py
+│   ├── order.py
+│   ├── order_item.py
+│   └── payment.py
+├── services/
+│   ├── menu_service.py
+│   ├── order_service.py
+│   └── payment_service.py
+└── routes/
+    ├── main.py
+    ├── menu_routes.py
+    ├── order_routes.py
+    └── payment_routes.py
+
+## Frontend Structure
+frontend/
+├── src/
+│   ├── components/
+│   ├── services/
+│   │   └── api.ts
+│   ├── types/
+│   ├── utils/
+│   └── App.tsx
+
+---
+
+## Quick Start
+
+1. Start the backend:
+```bash
+cd backend
+pip install -r requirements.txt
+python seed_data.py
+python app.py
+```
+
+2. Start the frontend:
+```bash
+cd frontend
+npm install
+npm start
+```
+
+3. Visit
+Frontend UI: http://localhost:3000
+Backend API: http://localhost:5001
+
+
+
+
+
+
